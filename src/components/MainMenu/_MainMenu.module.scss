@@ -1,0 +1,78 @@
+nav {
+    /* height: 25px; */
+    line-height: 25px;
+    background-color: #00008b;
+}
+
+.main-menu {
+    /* max-width: 1200px; */
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+
+    a {
+        align-self: center;
+    }
+    .logo {
+        margin: 0;
+        height: 35px;
+        
+    }
+
+    label {
+        color: white;
+    }
+
+    .select {
+        align-self: center;
+        margin-left: 5px;
+    }
+
+    .pages {
+        text-transform: uppercase; 
+        margin: 13px 0;    
+
+        a {
+            text-decoration: none;
+            color: blue;
+            margin: 0 10px 0 0;
+        }
+    }
+}
+
+
+.flags {
+
+    .flag {
+        height: 25px;
+        margin: 13px 0 13px 10px;
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .flags {
+
+        .flag {
+            height: 20px;
+            margin: 10px 0 10px 8px;
+            background-color: white;
+        }
+    }
+
+    .main-menu {
+        padding: 0 10px;
+
+        .logo {
+            height: 20px;
+        }
+    }
+
+}

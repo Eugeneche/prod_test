@@ -28,9 +28,9 @@ const LanguagesSwitcher = () => {
   
   return (
     <div className={style.mainMenu}>
-      <NavLink to="/">
+      {/* <NavLink to="/"> */}
         <img  className={style.logo} src={logo} alt="logo"></img>
-      </NavLink>
+      {/* </NavLink> */}
       
       <div className={style.flags}>
         <Link to={`${path}`} hrefLang="cs">
